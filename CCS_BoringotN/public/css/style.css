@@ -1,12 +1,10 @@
-/* Reset + defaults */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    text-align: center;
+    txt-align: center;
     color: white;
 }
 
-/* Backgrounds per page */
 body.home-bg {
     background: url("../images/home-bg.png") no-repeat center center fixed;
     background-size: cover;
@@ -27,8 +25,8 @@ body.contact-bg {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* keeps logos near text */
-    gap: 20px; /* space between logos and text */
+    justify-content: center; 
+    gap: 20px; 
     background: rgba(0, 0, 0, 0.6);
     padding: 10px 20px;
 }
@@ -37,7 +35,7 @@ body.contact-bg {
     width: 80px;
     height: auto;
     padding: 5px;
-    background: rgba(255, 255, 255, 0.8); /* white highlight */
+    background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 0 10px rgba(0,0,0,0.6); 
 
 }
@@ -64,7 +62,6 @@ nav a:hover {
     color: #1607a5;
 }
 
-/* Style for Welcome text */
 .welcome-text {
     color: white;           
     margin-top: 100px;      
@@ -85,7 +82,7 @@ nav a:hover {
     font-size: 14px;
     transition: 0.3s;
 }
-/* Programs grid */
+
 .programs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -94,7 +91,7 @@ nav a:hover {
     width: 90%;
 }
 
-/* Program cards */
+
 .program-card {
     background: rgba(255, 255, 255, 0.9);
     padding: 15px;
