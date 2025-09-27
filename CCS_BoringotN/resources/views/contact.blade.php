@@ -6,11 +6,9 @@
 <section id="contact" class="contact-section">
     <div class="container text-center">
 
-        <!-- Title and Subtitle -->
         <h2 class="contact-title">Contact Us</h2>
         <p class="contact-subtitle">Get in touch with us!</p>
 
-        <!-- Contact Icons Row -->
         <div class="contact-items-container">
 
             <div class="col-md-3 mb-4 contact-item">
